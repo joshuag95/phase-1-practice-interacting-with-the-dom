@@ -1,7 +1,9 @@
 function increment (){
        document.getElementById("plus").addEventListener("click", e => {
-        let value = document.getElementById("counter");
-        console.log(value)
+        let counter = document.getElementById("counter");
+        let number = counter
+        counter.textContent = 1
+        console.log(counter)
        
     });
    }
